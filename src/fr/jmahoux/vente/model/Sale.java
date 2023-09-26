@@ -72,6 +72,9 @@ public class Sale {
             System.out.println(lot.sellToString());
             lot.setSellPrice(lot.getSellPrice());
         });
+
+        System.out.println("Résumé de la vente :");
+        display();
     }
 
     public void display() {
